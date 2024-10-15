@@ -3,11 +3,15 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-
+import Contador from './components/Contador';
+import DibujosComplejosReact from './components/DibujosComplejosReact';
+import PadreDeportes from './components/PadreDeportes';
+import PadreNumeros from './components/PadreNumeros';
+import Comics from './components/Comics';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <Comics/>
   </React.StrictMode>
 );
 
